@@ -111,7 +111,7 @@ if __name__ == '__main__':
         print(f'Train loss: {epoch_loss:.4f}, Acc: {epoch_acc:.4f}')
 
 
-    torch.save(model.state_dict(), 'vegetable1_resnet18.pth')
+    torch.save(model.state_dict(), 'vegetable_resnet18.pth')
 
 
     model.eval()
